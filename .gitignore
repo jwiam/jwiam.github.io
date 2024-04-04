@@ -1,5 +1,8 @@
+.*
 *.gem
+*.lock
 *.rbc
+_site
 /.config
 /coverage/
 /InstalledFiles

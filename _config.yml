@@ -1,0 +1,40 @@
+# Site settings
+title:          JW
+description:    "Web developer, that lives in South Korea."
+url:            "https://jwiam.github.io"
+
+# Google Analytics
+google_analytics: 
+
+# Author
+author:
+  name:         Jiwon Min
+  url:          https://jwiam.github.io
+  email:        jwiamx@outlook.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Permalinks
+permalink:      /:title
+paginate:       5
+paginate_path:  /:num
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock ]
+
+# Giscus
+comments: true
